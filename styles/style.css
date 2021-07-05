@@ -36,6 +36,7 @@
 	--blue: #005bcb;
 	--grey: #f8f9f9;
 	--grey--dark: #d8d8d8;
+	--grey--logo: #989898;
 	--dot--primary: #a4a4a4;
 	--dot--active: #4a4a4a;
 	--link--active: #ff2500;
@@ -567,6 +568,25 @@ header div img {
 	font-size: 1.2rem;
 	letter-spacing: 1.6px;
 	text-align: center;
+}
+
+/* FOOTER */
+.footer {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 4rem;
+}
+
+.footer img {
+	width: min(70%, 100px);
+	margin: 0 auto 0.3rem;
+}
+
+.footer p {
+	font-size: 1rem;
+	letter-spacing: 1.2px;
+	color: var(--grey--logo);
 }
 
 /* MEDIA QUERIES */
