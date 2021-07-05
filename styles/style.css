@@ -806,4 +806,9 @@ header div img {
 	.summer-cta__info {
 		margin-left: 15rem;
 	}
+
+	.nav-links {
+		padding-left: 10rem;
+		padding-right: 12rem;
+	}
 }
