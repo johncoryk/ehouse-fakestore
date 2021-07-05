@@ -450,7 +450,7 @@ header div img {
 	position: absolute;
 	top: 13.5rem;
 	background-color: var(--accent);
-	padding: 1.5rem;
+	padding: 2.5rem;
 	transition: all ease-out 350ms;
 }
 
@@ -614,7 +614,7 @@ header div img {
 	}
 
 	.summer-cta__info {
-		width: 600px;
+		width: 640px;
 		top: 9.75rem;
 	}
 
@@ -650,18 +650,15 @@ header div img {
 
 	.summer-cta {
 		height: 725px;
-		margin-bottom: 5rem;
+	}
+
+	.summer-cta__info:hover {
+		box-shadow: 5px 6px 10px -5px rgba(0, 0, 0, 0.23);
+		transform: translate(0, -4px);
 	}
 
 	.summer-cta__info > div {
 		padding: 3.5rem;
-	}
-
-	.value-props__container {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
 	}
 
 	.department-card {
@@ -677,8 +674,20 @@ header div img {
 		background: white;
 	}
 
+	.department-card__info:hover {
+		box-shadow: 5px 6px 10px -5px rgba(0, 0, 0, 0.23);
+		transform: translate(0, -4px);
+	}
+
 	.card__text h3 {
 		font-size: 1.7rem;
+	}
+
+	.value-props__container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 	}
 }
 
