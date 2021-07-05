@@ -174,6 +174,7 @@ button.button {
 	color: var(--accent);
 	text-transform: uppercase;
 	font-size: 0.85rem;
+	font-weight: 500;
 	letter-spacing: 1.5px;
 	border: none;
 	border-radius: 5px;
@@ -356,7 +357,7 @@ header div img {
 
 .hero__container {
 	height: 600px;
-	max-width: 2200px;
+	max-width: 2000px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -451,7 +452,7 @@ header div img {
 	position: absolute;
 	top: 13.5rem;
 	background-color: var(--accent);
-	padding: 2.5rem;
+	padding: 1rem;
 	transition: all ease-out 350ms;
 }
 
@@ -576,6 +577,8 @@ header div img {
 	align-items: center;
 	flex-direction: column;
 	margin-bottom: 4rem;
+	max-width: 320px;
+	margin-inline: auto;
 }
 
 .footer img {
@@ -612,6 +615,7 @@ header div img {
 
 	.summer-cta__info {
 		margin-inline: 0.5rem;
+		padding: 2.5rem;
 	}
 
 	.department-card p {
@@ -753,12 +757,12 @@ header div img {
 	}
 
 	.hero-info__text {
-		max-width: 600px;
+		max-width: 650px;
 	}
 
 	.hero-info__text h2 {
-		font-size: 4.75rem;
-		letter-spacing: 9px;
+		font-size: 5.25rem;
+		letter-spacing: 6px;
 		margin-block: 2.5rem;
 	}
 
