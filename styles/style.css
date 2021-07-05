@@ -397,12 +397,14 @@ header div img {
 	letter-spacing: 1px;
 	font-size: 1.1rem;
 	font-weight: 500;
+	transition: all ease 150ms;
 }
 
 .hero-info__text h2 {
 	font-size: 2.5rem;
 	line-height: 1.1;
 	letter-spacing: 3px;
+	transition: all ease 150ms;
 }
 
 .hero-info__buttons {
@@ -737,6 +739,28 @@ header div img {
 		flex-grow: 4;
 	}
 
+	.hero__info {
+		background-color: transparent;
+		border: none;
+		position: absolute;
+		top: 3rem;
+		left: 13%;
+	}
+
+	.hero-info__text {
+		max-width: 650px;
+	}
+
+	.hero-info__text h2 {
+		font-size: 4.5rem;
+		letter-spacing: 6px;
+		margin-block: 2rem;
+	}
+
+	.hero__dots {
+		margin: 4rem auto 0;
+	}
+
 	.value-prop__icon img {
 		width: 110%;
 	}
@@ -749,25 +773,14 @@ header div img {
 	}
 
 	.hero__info {
-		background-color: transparent;
-		border: none;
-		position: absolute;
-		top: 8rem;
+		top: 7.5rem;
 		left: 10%;
-	}
-
-	.hero-info__text {
-		max-width: 650px;
 	}
 
 	.hero-info__text h2 {
 		font-size: 5.25rem;
 		letter-spacing: 6px;
 		margin-block: 2.5rem;
-	}
-
-	.hero__dots {
-		margin: 4rem auto 0;
 	}
 
 	.summer-cta__container {
