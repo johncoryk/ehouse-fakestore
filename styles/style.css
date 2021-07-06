@@ -309,6 +309,7 @@ header div img {
 
 .nav-account {
 	padding-bottom: 0.2rem;
+	color: var(--grey--logo);
 }
 
 .nav-divider {
@@ -385,7 +386,7 @@ header div img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	transition: all ease 120ms;
+	transition: all ease 90ms;
 }
 
 .hero-info__text {
@@ -674,6 +675,36 @@ header div img {
 		height: 100%;
 	}
 
+	.hero__background-image::before {
+		content: '<';
+		background-color: var(--dot--active);
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		top: 50%;
+		left: 0;
+		color: var(--accent);
+		opacity: 0.5;
+		padding-left: 13px;
+		padding-bottom: 60px;
+		font-size: 2.5rem;
+	}
+
+	.hero__background-image::after {
+		content: '>';
+		background-color: var(--dot--active);
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		top: 50%;
+		right: 0;
+		color: var(--accent);
+		opacity: 0.5;
+		padding-left: 17px;
+		padding-bottom: 60px;
+		font-size: 2.5rem;
+	}
+
 	.summer-cta {
 		height: 725px;
 	}
@@ -743,8 +774,10 @@ header div img {
 		background-color: transparent;
 		border: none;
 		position: absolute;
-		top: 3rem;
-		left: 13%;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: 680px;
 	}
 
 	.hero-info__text {
@@ -775,6 +808,7 @@ header div img {
 	.hero__info {
 		top: 7.5rem;
 		left: 10%;
+		transform: none;
 	}
 
 	.hero-info__text h2 {
