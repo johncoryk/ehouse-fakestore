@@ -89,7 +89,7 @@ body {
 a {
 	color: inherit;
 	text-decoration: none;
-	transition: all ease 200ms;
+	transition: color ease 200ms;
 }
 
 a:hover {
@@ -260,7 +260,7 @@ header div img {
 	padding-bottom: 0.5rem;
 	padding-left: 2rem;
 	padding-right: 1.5rem;
-	transition: all ease 200ms;
+	transition: color ease 200ms;
 }
 
 .nav-links > nav {
@@ -386,7 +386,7 @@ header div img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	transition: all ease 90ms;
+	transition: transform ease 10ms;
 }
 
 .hero-info__text {
@@ -420,7 +420,6 @@ header div img {
 	margin: 2rem auto 0;
 	justify-content: space-between;
 	align-items: center;
-	transition: all ease-out 250ms;
 }
 
 .dot {
